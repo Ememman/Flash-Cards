@@ -3,10 +3,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(),
-  ],
-  base: '/flashcards-app/',
+  base: '/Flash-Cards/',
   plugins: [react(), tailwindcss()],
 })
