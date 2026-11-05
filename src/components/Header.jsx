@@ -1,12 +1,11 @@
-import { BookOpen, Sparkles } from "lucide-react";
+import FlashCardsLogo from "./FlashCardsLogo";
+import { Sparkles } from "lucide-react";
 
 function Header() {
   return (
     <header className="flex items-center justify-between border-b border-slate-200 pb-5">
       <div className="flex items-center gap-3">
-        <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#0A1A35] text-white">
-          <BookOpen size={23} />
-        </div>
+        <FlashCardsLogo className="h-11 w-11 shrink-0 drop-shadow-sm" />
 
         <div>
           <h1 className="text-xl font-bold tracking-tight text-[#0A1A35]">
