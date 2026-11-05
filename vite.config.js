@@ -7,6 +7,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/flashcards/',
+  base: '/flashcards-app/',
   plugins: [react(), tailwindcss()],
 })
