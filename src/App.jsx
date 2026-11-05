@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import Header from "./components/Header";
 import Flashcard from "./components/Flashcard";
-import ProgressBar from "./components/Progressbar";
+import ProgressBar from "./components/ProgressBar";
 import Navigation from "./components/Navigation";
 
 import flashcards from "./data/flashcards";
